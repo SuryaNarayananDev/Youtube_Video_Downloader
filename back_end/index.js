@@ -32,7 +32,8 @@ app.post('/download', async (req, res) => {
   if (fs.existsSync(outputFile)) fs.unlinkSync(outputFile);
 
   // ✅ Use full path to yt-dlp.exe here
-const command = `python -m yt_dlp -f mp4 -o "${outputFile}" "${videoUrl}"`;
+// const command = `python -m yt_dlp -f mp4 -o "${outputFile}" "${videoUrl}"`;
+const command = `python -m yt_dlp --cookies cookies.txt -f mp4 -o "${outputFile}" "${videoUrl}"`;
 
 
   // Execute the yt-dlp command
