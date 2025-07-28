@@ -8,7 +8,7 @@ const Downloader = () => {
   const handleDownload = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/download', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/download`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
