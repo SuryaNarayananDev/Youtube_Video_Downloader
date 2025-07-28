@@ -95,23 +95,20 @@ const Downloader = () => {
       {errorMsg && (
         <div className="downloader-error" style={{ color: 'red', marginTop: '10px' }}>{errorMsg}</div>
       )}
-      {downloadLink && (
+   {downloadLink && (
   <div>
-    <button
+    <a
+      href={downloadLink}
+      download="video.mp4"
+      target="_blank"
+      rel="noopener noreferrer"
       className="downloader-link"
-      onClick={() => {
-        const link = document.createElement('a');
-        link.href = downloadLink;
-        link.setAttribute('download', 'video.mp4');
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      }}
     >
       Click here to download
-    </button>
+    </a>
   </div>
 )}
+
     </div>
   );
 };
