@@ -1,0 +1,38 @@
+    .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    padding: 2rem 0 1rem 0;
+    background: linear-gradient(90deg, #0f2027 0%, #2c5364 100%);
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    margin-bottom: 2rem;
+}
+.spanr{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.header-subtitle {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    max-width: 600px;
+}

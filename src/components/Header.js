@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
-    <div className="header-container">
-      <h1>header</h1>
-    </div>
-  )
+    <header className="header-container">
+        <h1 className='header-title'>DOWNY</h1><span className='spanr'>For Lazy Streamers Who Love Offline😝</span>
+        {/* <h3>Video Downloader</h3> */}
+      {/* <p className="header-subtitle"></p> */}
+       </header>
+  );
 }
 
-export default Header
+export default Header;
