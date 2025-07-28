@@ -14,7 +14,7 @@ function Footer() {
           <a href="https://instagram.com/suryanarayanan.00" className="footer-link instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
-      <div className="footer-copy">&copy; {new Date().getFullYear()} Suryanarayanan. All rights reserved.</div>
+      <div className="footer-copy">&copy; {new Date().getFullYear()} Suryanarayanan. All rights to Publilc 😉.</div>
     </footer>
   );
 }
