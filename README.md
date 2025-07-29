@@ -2,7 +2,6 @@
 
 
 ## Overview 🎬✨
-
 Welcome to your all-in-one YouTube video downloader! This simple and fun app lets you grab your favorite YouTube videos with just a click — no complicated stuff, no headaches. Just paste the link, hit the button, and voilà! Your video is ready to download. Perfect for anyone who wants videos offline, anytime, anywhere. Easy, fast, and hassle-free! 🚀💻
 
 ---
