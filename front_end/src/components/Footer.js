@@ -9,9 +9,9 @@ function Footer() {
       <div className="footer-content">
         <span className="footer-title">Connect with me:</span>
         <div className="footer-links">
-          <a href="https://www.linkedin.com/in/suryanarayanan00/" className="footer-link linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/suryanarayanan00" className="footer-link github" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://instagram.com/suryanarayanan.00" className="footer-link instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com/in/suryanarayanandev67/" className="footer-link linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/SuryaNarayananDev" className="footer-link github" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.instagram.com/surya_narayanan_dev/" className="footer-link instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
       <div className="footer-copy">&copy; {new Date().getFullYear()} Suryanarayanan. All rights to Publilc 😉.</div>
